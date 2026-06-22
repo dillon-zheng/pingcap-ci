@@ -1,0 +1,4 @@
+interface:
+  display_name: "GCS Bazel Dangling AC"
+  short_description: "Find and delete exact Bazel AC entries pointing to missing GCS CAS blobs"
+  default_prompt: "Use $gcs-bazel-dangling-ac to debug a Bazel Missing digest failure and remove the exact dangling AC entry."

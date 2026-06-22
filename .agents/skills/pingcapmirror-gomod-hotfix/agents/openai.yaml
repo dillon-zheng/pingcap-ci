@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pingcapmirror Gomod Hotfix"
+  short_description: "Upload missing Go module zip files into pingcapmirror after verifying the exact proxy artifact and sha256"
+  default_prompt: "Use $pingcapmirror-gomod-hotfix to diagnose a missing internal gomod mirror object, verify the correct proxy zip, upload it to pingcapmirror, and validate the mirror URL."
